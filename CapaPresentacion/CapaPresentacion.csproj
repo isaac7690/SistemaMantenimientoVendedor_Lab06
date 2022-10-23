@@ -69,6 +69,9 @@
     <EmbeddedResource Include="frmBuscarVendedor.resx">
       <DependentUpon>frmBuscarVendedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoVendedores.resx">
+      <DependentUpon>frmListadoVendedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +101,10 @@
     <ProjectReference Include="..\Capa_Entidad\Capa_Entidad.csproj">
       <Project>{b1fe8ca4-885b-475c-b36c-47d0837d3643}</Project>
       <Name>Capa_Entidad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Negocios\Capa_Negocios.csproj">
+      <Project>{99982420-34e8-4f12-8da4-e762c29816a3}</Project>
+      <Name>Capa_Negocios</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

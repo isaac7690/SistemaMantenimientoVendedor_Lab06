@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Capa_Negocios;
 
 namespace CapaPresentacion
 {
     public partial class frmListadoVendedores : Form
     {
+        CNVendedor objNEG = new CNVendedor();
         public frmListadoVendedores()
         {
             InitializeComponent();
